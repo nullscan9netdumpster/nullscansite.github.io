@@ -3,41 +3,74 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>backdoor-echo — Home</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <h1 class="logo">MySite</h1>
+            <h1 class="logo">backdoor-echo</h1>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
-        <section class="hero">
-            <h2>Welcome to My Website</h2>
-            <p>A simple homepage hosted on GitHub Pages.</p>
-            <a href="#" class="btn">Learn More</a>
+        <section class="hero full-height">
+            <h2>Welcome to backdoor-echo</h2>
+            <p>Your small window into the latest in technology, security, and software.</p>
+            <a href="projects.html" class="btn">View Projects</a>
         </section>
     </header>
 
     <main>
         <section class="content-section">
-            <h3>About This Site</h3>
-            <p>
-                This is a clean starter template for your homepage.  
-                You can customize anything — text, colors, links, or layout.
-            </p>
+            <h3>Latest in Technology</h3>
+            <div class="news-grid">
+                <article class="news-item">
+                    <h4>AI Models Keep Getting Smarter</h4>
+                    <p>
+                        Large language models and generative AI tools are rapidly evolving, powering
+                        everything from coding assistants to creative tools. Companies and open-source
+                        communities are racing to make models more efficient, controllable, and private.
+                    </p>
+                </article>
+
+                <article class="news-item">
+                    <h4>Cybersecurity Remains a Top Priority</h4>
+                    <p>
+                        With more services moving to the cloud, protecting data, identities, and
+                        infrastructure has become critical. Zero-trust architectures, stronger
+                        authentication, and better monitoring are now standard for serious deployments.
+                    </p>
+                </article>
+
+                <article class="news-item">
+                    <h4>Edge & Cloud Working Together</h4>
+                    <p>
+                        Modern apps increasingly blend edge devices with powerful cloud backends.
+                        This allows low-latency experiences while still leveraging heavy compute for
+                        analytics, AI, and storage.
+                    </p>
+                </article>
+
+                <article class="news-item">
+                    <h4>Open Source Tools Everywhere</h4>
+                    <p>
+                        From dev tooling to security scanners and observability platforms, open source
+                        projects continue to define the modern stack. Self-hosted tools give developers
+                        more control over their workflows and data.
+                    </p>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2025 MySite — All rights reserved.</p>
+        <p>© 2025 backdoor-echo — All rights reserved.</p>
     </footer>
 </body>
 </html>
